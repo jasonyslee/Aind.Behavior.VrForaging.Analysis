@@ -59,7 +59,7 @@ from typing import List, Literal, Optional
 from pathlib import Path
 import os
 
-def find_sessions_relative_to_date(base_paths: List[str] = ['Z:/scratch/vr-foraging/data', 'Z:/stage/vr-foraging/data'], 
+def find_sessions_relative_to_date(base_paths: List[str] = ['Z:/vr-foraging/data', 'Y:/vr-foraging/data'], 
                                    mouse: str = '', 
                                    date_string: str = '', 
                                    when: Literal['before', 'after', 'on', 'between', 'on_or_before', 'on_or_after'] = 'on', 
